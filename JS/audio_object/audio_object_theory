@@ -1,0 +1,26 @@
+* Not only HTML allows you to create DOM elements: it can also be done with JavaScript. An Audio Object can be created by using the following syntax:
+
+let audio = document.createElement("AUDIO");
+
+You can also create audio objects using the new Audio() construction:
+
+let audio = new Audio("path/to/myAudio.mp3");
+
+* Just as with any other object, access to the properties of an Audio Object is obtained through a point. Let's take a look at the basic properties of the given object:
+
+let audio = getElementById("myObjectID");
+let src = audio.src;
+console.log(src);
+
+* The duration property lets us know the duration of the audio file in seconds:
+
+let duration = audio.duration;
+console.log(duration);
+
+* Now let's consider some Audio Object methods. The following method is responsible for reloading the <audio> element:
+
+audio.load();
+The following methods are probably the most basic ones:
+
+audio.play();
+audio.pause();

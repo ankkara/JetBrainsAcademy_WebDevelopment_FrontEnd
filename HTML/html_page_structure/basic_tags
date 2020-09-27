@@ -1,0 +1,36 @@
+Basic tags in HTML: Tue structure can be divided into three main sections:
+1) <html>
+2) <head>
+3) <body>
+
+example:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page title</title>
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+  </body>
+</html>
+
+*element <!DOCTYPE> specifies the type of the current document: DTD (Document Type Definition).
+
+*the <meta> tag with attribute charset specifies document coding.
+If it is not specified, some browsers may display obscure characters instead of the text;
+
+*the <html> tag indicates that it is an HTML document;
+
+*the <head> tag is designed to store elements that help the browser and search engines to work with data;
+
+*the <title> contains the HTML document header. Even though this tag is not mandatory, it is still present
+on almost all web pages on the Internet;
+
+*the <body> tag defines the page content area. It wraps the content displayed in the main browser window;
+
+*the <h1> tag holds the page title within the body, and the <p> tag is responsible for the paragraphs.
+These tags are not the main sections and provided here as an example, but you're likely to find
+them useful in the future as you move from basic to artsy.

@@ -1,0 +1,19 @@
+Mouse events occur when the user interacts with the mouse. The most popular ones are:
+
+* click when the user clicks the left mouse button;
+* contextmenu when the user clicks the right mouse button;
+* dblclick when the user clicks the left mouse button twice;
+* mouseenter when the user moves the mouse pointer towards the element;
+* mouseleave when the user moves the mouse pointer away from the element.
+
+Keyboard events are the results of the user's interaction with the keyboard. There are three types of such events:
+
+* keydown when the user presses any key;
+* keypress when the user presses any key except Shift, Fn, or CapsLock;
+* keyup when the user releases a key.
+
+Focus events occur when an element receives or loses focus. This is especially useful for input when developers mark the
+incorrectly filled input field in red, such as the email or phone fields.
+
+* focus when an element receives focus;
+* blur when an element looses focus.

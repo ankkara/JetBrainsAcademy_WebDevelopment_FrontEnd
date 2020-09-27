@@ -1,0 +1,10 @@
+
+* The async keyword has two main applications. It makes a function always return a
+Promise and allows us to use await to pause a function and resume it when the Promise is fulfilled.
+
+* The await keyword makes a function wait until a Promise is fulfilled. Like the ordinary
+.then() method, await makes the function wait for the Promise to be fulfilled. It always has to be
+used within an asynchronous function.
+
+* We've also come across thetry..catch statements to handle rejections and errors. Now let's
+get down to the code challenges!

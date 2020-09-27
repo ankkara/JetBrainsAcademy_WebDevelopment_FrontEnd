@@ -1,0 +1,15 @@
+* getElementById() = If the tag we need has an id attribute, we can get it by calling the getElementById()
+
+document.getElementById("userName");
+
+* querySelector() = With the querySelector() method it is possible to return the first document element
+that corresponds to the specified selector:
+
+var speed = document.querySelector("div");
+
+* querySelectorAll() = querySelectorAll() gets all elements that match the specified selector.
+Do not forget that there are class selectors (".className"), id ("#idName") selectors and many others.
+All of them can be used in the methods of querySelectorAll() and querySelector().
+
+let restaurant = document.querySelectorAll(".menu");
+let streets = document.querySelectorAll(".street");
