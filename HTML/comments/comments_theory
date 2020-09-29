@@ -1,0 +1,4 @@
+Any text placed in <!-- and --> will be considered a comment. The text of the comment can be placed either on a single line or several.
+
+Comments can be used anywhere on the page except the <title> tag.
+

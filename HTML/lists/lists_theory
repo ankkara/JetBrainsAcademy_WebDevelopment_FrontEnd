@@ -1,0 +1,80 @@
+3 types of lists  depends on what sort of information you’re working with and how you want it to be presented.
+
+1) ORDERED LIST: Numerical Order
+
+    1. Facebook
+    2. Twitter
+    3. Instagram
+    4. Snapchat
+
+If one or more of these items gets deleted, others will be reset automatically.
+
+* To create an ordered list, use a paired tag <ol></ol>. Start every item with <li> and close with </li>.
+
+Let’s take a look at an example. The following code:
+
+<ol>
+  <li>Facebook</li>
+  <li>Twitter</li>
+  <li>Instagram</li>
+  <li>Snapchat</li>
+</ol>
+
+* Type is an especially important attribute for ordered lists because it determines numeration.
+ 1 — default, decimal numeration (1, 2, 3, 4...)
+
+ A — by alphabetical order, capital letters (A, B, C, D...).
+
+ a — by alphabetical order, lowercase letters (a, b, c, d...).
+
+ I — by Roman numerals (I, II, III, IV).
+
+ Example:
+
+ <ol type="a"></ol>
+ a. First
+ b. Second
+ c. Third
+
+* Starting value: assign the number of a starting value.
+  For example, if we want to assign number 5 to some item, we have to write <li value="5"></li>,and the numeration will continue according to that.
+
+* Reversed sets the list in an inverse order.
+  See the following example:
+
+  <ol reversed></ol>
+  10, 9, 8…
+
+2) UNORDERED list:
+
+<ul>
+  <li>Facebook</li>
+  <li>Twitter</li>
+  <li>Instagram</li>
+  <li>Snapchat</li>
+</ul>
+
+    · Facebook
+    · Twitter
+    · Instagram
+    · Snapchat
+
+3) DEFINITION list:
+
+It is made with a paired tag <dl></dl>. Use <dt></dt> for the main object and <dd></dd> for definition. Remember that the order is the term first and then the explanation.
+
+<dl>
+  <dt>Recipe:</dt>
+    <dd>Omelet</dd>
+  <dt>Ingredients:</dt>
+    <dd>Eggs</dd>
+    <dd>Milk</dd>
+    <dd>Salt</dd>
+</dl>
+
+    Recipe:
+        Omelet
+    Ingredients:
+        Eggs
+        Milk
+        Salt

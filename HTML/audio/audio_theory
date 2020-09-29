@@ -1,0 +1,27 @@
+* Until recently, developers could add sound files to web pages only via <bgsound> tag. It set the audio as the background sound and played it while the user is viewing the page, giving no ability to turn it off (not cool).
+
+* To solve this problem, a new tag <audio> was added to the fifth version of the HTML standard.
+
+The <audio> tag is used to embed audio content into web pages. When using this tag, HTML markup looks like this:
+
+<audio src="media/example.mp3"></audio>
+or like that, using a nested <source> tag and the same audio recording in different formats:
+
+<audio>
+  <source src="media/example.mp3" type="audio/mpeg">
+  <source src="media/example.ogg" type="audio/ogg">
+</audio>
+
+* Attributes of tags:
+
+a) src indicates the path to the file that's played
+b) controls displays the audio player control interface (playback buttons, pause, volume)
+c) autoplay is responsible for automatic playback of the file immediately after the page is loaded
+d) loop cycles the audio file
+e) muted mutes the sound when playing an audio file
+
+
+* File Format	Media Type
+        MP3	audio/mpeg
+        OGG	audio/ogg
+        WAV	audio/wava

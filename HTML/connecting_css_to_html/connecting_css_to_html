@@ -1,0 +1,31 @@
+1)EXTERNAL CSS: CSS styles written in a separate file are called External Style Sheets. To include External Style Sheets in an HTML document, use an unpaired <link> tag. Take a careful look at the syntax in this example:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connecting External CSS to HTML</title>
+    <link rel="s<tylesheet" href="style.css">
+  </head>
+  <body>
+  </body>
+</html>
+
+The href attribute specifies the file's address, and the rel attribute with the stylesheet value tells the browser that we are connecting styles and not something else.
+
+It is best to include styles inside the <head>, but this is not a hard requirement. The <link> tag will also work fine elsewhere on the page.
+
+2)INTERNAL CSS: CSS styles can be written directly in HTML markup instead of a separate file. Such sets of styles are usually called Internal Style Sheets. They are wrapped in a paired <style> tag and must be located inside <head>:
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Connecting Internal CSS to HTML</title>
+        <style>
+          There should be a CSS code here
+        </style>
+      </head>
+      <body>
+      </body>
+    </html>

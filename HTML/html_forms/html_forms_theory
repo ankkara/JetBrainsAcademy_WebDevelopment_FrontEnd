@@ -1,0 +1,41 @@
+Forms are designed to send data from a web page to a server that can process it. By means of such forms,
+one can make purchases, send messages, register on various websites and so on:
+
+<form>
+
+* action specifies the address of the program or document that processes the data of the form;
+* method informs the server of the request method.
+
+The get and post methods are used to submit data from the form to a server.
+If the method attribute is not specified, get will be used by default.
+
+<form action="[value]" method="[value]">
+  <p>First Name:</p>
+  <input type="text" name="firstName">
+  <p>Last Name:</p>
+  <input type="text" name="lastName">
+</form>
+
+* Every new user is so valuable, and it makes sense we want to know more about them.
+  With <input type="radio">, you can create a radio button:
+
+  <form action="[value]" method="[value]">
+    <input type="radio" name="language" value="english"> English
+    <input type="radio" name="language" value="spanish"> Spanish
+  </form>
+
+* Sometimes one option is not enough. In this case, you can create checkbox forms using
+  <input type="checkbox">:
+
+  <form action="[value]" method="[value]">
+    <input type="checkbox" name="technique" value="computer">I have a computer
+    <br>
+    <input type="checkbox" name="technique" value="phone">I have a phone
+  </form>
+
+ *The <label> element links the text to the form element. The tag does not show itself visually, so to understand whether it is involved or not, you can only use the text. If clicking on the text activates a nearby form element, it means <label> works. Let's try to rewrite the previous example using the <label> tag:
+
+   <form action="[value]" method="[value]">
+     <label><input type="radio" name="language" value="english">English</label>
+     <label><input type="radio" name="language" value="spanish">Spanish</label>
+   </form>

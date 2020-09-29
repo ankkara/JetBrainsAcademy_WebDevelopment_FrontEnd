@@ -1,0 +1,14 @@
+*To connect JavaScript files to an HTML document, use the paired tag <script> with the attribute src.
+In the attribute, a path to the necessary file is specified.
+
+<script src="assets/js/main.js"></script>
+
+//The difference does in fact exist. It is recommended to enable JavaScript at the end of the <body> section
+since this type of connection allows you to speed up the loading of the page. Web pages are loaded in the
+order specified in HTML markup: first, the browser analyzes the elements inside the <head> tag and then goes
+to <body>. If you use the connection in the <head> tag, the page content will not be visible in the browser
+until the JavaScript file is loaded. The situation may become critical with larger files. The priority here
+is to show the basic information posted on the web page so that the user does not sit looking at a blank screen monitor for a long time.
+
+* Internal script => JS code can also be written directly in HTML, not in a separate file.
+To do this, just enclose the JS code in a paired <script> tag.

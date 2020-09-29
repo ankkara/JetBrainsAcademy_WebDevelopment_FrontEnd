@@ -1,0 +1,16 @@
+The <img> tag allows you to insert an image on a web page. It has a mandatory attribute src, which is used to specify the path to the desired graphic file:
+
+<img src="assets/image.jpg">
+
+Another useful attribute of the <img> tag is alt. It is not obligatory, but its indication is considered good practice.
+The alt attribute sets an alternative text for images.
+
+<img src="products/sneakers.jpg" alt="White sneakers on the platform">
+
+* FORMATS:
+
+JPEG (Joint Photographic Experts Group) is most commonly used to process and store photos. It is recognized by all browsers and devices, and it provides a controlled degree of compression;
+PNG (Portable Network Graphics) provides the ability to compress files with little or no loss of quality and supports transparency. It is mainly used to store pictures, diagrams, and other graphic elements with transparency;
+SVG (Scalable Vector Graphics) provides the ability to scale files without changing their quality, supports transparency, and allows you to save both still and animated images. Usually it is used to create logos, icons, and simple illustrations;
+ICO (Windows icon) is used in situations when you need small pictures of a fixed size, such as labels on the desktop. The format supports transparency and allows only small-sized drawings. A picture of this format is displayed next to the site address or bookmark in your browser;
+GIF (Graphics Interchange Format) supports animation and transparency, and also provides compression without loss of quality.

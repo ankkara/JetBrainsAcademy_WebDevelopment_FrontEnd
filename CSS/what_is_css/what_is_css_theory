@@ -1,0 +1,26 @@
+To separate markup from design management, CSS was developed. This division made code simpler and cleaner, reducing the duplication of lines.
+
+*CSS (Cascading Style Sheets) is a language responsible for the
+1)visual presentation of documents written in HTML.
+2)CSS allows to change the colors of the elements,
+3)their height and width,
+4)the location of individual blocks,
+5)background images,
+6)and much more. 7)
+CSS files are saved in .css format.
+
+To date, the latest version of this technology is CSS3.
+
+* CSS got really popular, which makes a lot of sense when you think about all its benefits:
+
+a)It makes HTML pages more beautiful
+b)It saves developers time. You can write a CSS file once and then connect it to several HTML pages
+c)Pages load faster. Instead of writing the same property to different HTML elements, it is enough to write one CSS rule and apply it to several elements at once. Less code means faster loading time!
+d)It's compatible with multiple devices. Style sheets allow you to optimize content for more than one type of device. Using the same HTML document, you can present different versions of a website for computers, laptops and smartphones.
+e)Last but not least, it is supported by all latest browsers.
+
+*The concept of cascading stylesheets was proposed in 1994 by Håkon Wium Lie,
+a Norwegian scientist and IT specialist working for the W3C consortium at the
+First version of CSS (CSS1) was only published as a recommendation in 1996.
+
+CSS3 appeared in June 1999. The main feature of CSS3 is the ability to create animated elements without using programming languages.

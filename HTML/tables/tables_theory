@@ -1,0 +1,78 @@
+The HTML table is created with the <table> tag. Inside this tag, the elements of a table should be placed. Among these elements the two most important are:
+
+1)the <tr> tag that creates a row in a table;
+2)the <td> tag that creates the table cells.
+Knowing these tags, you can already create a simple table:
+
+<table>
+  <tr>
+    <td>Tomato soup</td>
+    <td>$3.95</td>
+  </tr>
+  <tr>
+    <td>French onion soup</td>
+    <td>$4.49</td>
+  </tr>
+</table>
+
+*TABLE HEADER CELL
+
+3)The <th> tag is used to create a table header cell for rows or columns. The text inside this tag is bold and centered. Let's try to write a table header cell for your table.
+
+<table>
+  <tr>
+    <th>Main dishes</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Tomato soup</td>
+    <td>$3.95</td>
+  </tr>
+  <tr>
+    <td>French onion soup</td>
+    <td>$4.49</td>
+  </tr>
+</table>
+
+*CAPTION
+
+4)In addition to a table header for rows, you can add a caption to the table itself. For this you need to use the <caption> tag. This tag is usually added after <table>, outside a row or cell:
+
+  <table>
+    <caption>Restaurant Menu</caption>
+    <tr>
+      <th>Main dishes</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Tomato soup</td>
+      <td>$3.95</td>
+    </tr>
+    <tr>
+      <td>French onion soup</td>
+      <td>$4.49</td>
+    </tr>
+  </table>
+
+*TABLE BORDERS
+
+5)By default, the table and its cells have no visible borders, but you can set them using the border attribute. Specify as a value any positive integer that will mean the desired width of the border in pixels. For instance:
+
+  <table border="1">
+    <tr>
+      <th>Main dishes</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Tomato soup</td>
+      <td>$3.95</td>
+    </tr>
+    <tr>
+      <td>French onion soup</td>
+      <td>$4.49</td>
+    </tr>
+  </table>
+  In the code above, we've set a border width of 1 pixel for the table:
+
+!! Automatically, the border also applies to all the cells in your table.
+Now this practice is outdated, and CSS is used for dividing the content and tables are used for their intended purpose.

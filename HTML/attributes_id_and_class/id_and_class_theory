@@ -1,0 +1,17 @@
+1) ID =>  <h1 id="title">Good Morning!</h1>
+In this example, title is the unique name of the element. Styles can now be applied to this element not through the tag selector, but through the value of the id attribute.
+
+To work with this attribute efficiently, keep in mind a few things:
+
+* When creating a unique name, you can use only Latin alphabet characters (A-Z, a-z), numbers, hyphens, and underscores. For example, names Navbar, nav_item and margin-b-40 will be correct.
+* The id name should not contain spaces. That is, names like our products will not be valid.
+* The id can be used for only one element; you will not be able to work with multiple elements that have identifiers with the same name.
+* Identifiers are case-sensitive: id="FirstHeader" and id="firstheader" are different identifiers.
+
+2) CLASS => You can apply several classes to one element. To do this, you just need to write the names of the classes separated by a space. It will look like this.
+
+<p class="black big-text">Hi!</p>
+
+In this example, the p element has two classes at once: black and big-text.
+
+The rules for naming class are exactly the same as for id: when creating a name, use only Latin characters (A-Z, a-z), numbers, hyphens, and underscores. Do not use spaces and keep in mind case sensitivity.
