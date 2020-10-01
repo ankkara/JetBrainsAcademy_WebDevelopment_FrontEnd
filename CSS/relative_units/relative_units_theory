@@ -1,0 +1,81 @@
+Relative units of measurement describe property values that directly depend on the values of the same properties for the parent element. This is what we are going to talk about in this topic.
+
+Relative units
+Let's look at several relative units of measurement and see where they differ.
+
+% sets the measurement as a percentage of the parent element. This is especially convenient when you need to make a page that adjusts to the size of the screen where it is viewed. In CSS, percentages are calculated from the size of the desired parent element property. With the help of percentages, it is convenient to set the size of block elements. In the example below, the height of the <p> element will be 200 pixels, because it is exactly 50% of the font size of the parent element <div> :
+<div>
+  <p>Units of measure</p>
+</div>
+div {
+  height: 400px;
+}
+
+p {
+  height: 50%; /* 200px */
+}
+em is used to indicate the font size relative to the current font of the parent element. If the font size is 4.5em, it means that it is 4.5 times larger than the current font of the parent element:
+<p><b>Units</b> of measure</p>
+p {
+  font-size: 10px;
+}
+
+b {
+  font-size: 2em; /* 20px */
+}
+rem resembles em, but with one important difference: rem is used if you want to change the font size of the element in relation to the font size of the root element <html>:
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 15px;
+}
+
+b {
+  font-size: 2rem; /* 20px */
+}
+Note that the text font size in the <b> tag will be 20 pixels, even though the styles are applied to the <p> tag.
+
+Viewport units
+There are also relative units of measurement that depend on the viewport. The word "viewport" refers to the area of the web page that the user can see without having to scroll. Such units begin with the letter "v", which stands for "viewport". As you may have guessed, such units of measurement are used to ensure that the web page is correctly displayed on devices with different screen sizes.
+
+vw — 1% of the width of the viewport.
+vh — 1% of the height of the viewport.
+
+
+100vw and 100vh are the values of the whole window together with the scroll bar. When you try to set this value, the elements will see a horizontal/vertical scroll bar.
+vmin — 1% of the minimum height and width of the viewport. vmin uses the size of the smaller side.
+
+
+vmax — 1% of the maximum height and width of the viewport area. This unit of measurement is the direct opposite of vmin and uses the larger side.
+
+
+vmin and vmax will be different when you resize your browser window or change your smartphone orientation.
+The viewport dependent measuring units, like %, are suitable for dimensioning block elements:
+
+pre {
+  width: 10vw;
+  height: 24vh;
+}
+
+div {
+  width: 20vmin;
+  height: 40vmax;
+}
+
+Rarely used units of measurement
+Let's move on and consider a few units that are not used as often.
+
+ex allows you to set the font size relative to the x-height of the current font of the parent element. The term "x-height" implies the height of lower case letters. This unit is rarely used.
+Here is an example of use:
+
+p {
+  font-size: 4ex;
+}
+ch is used to set the font size relative to the width of the character "0" in the current font of the parent element. This unit of measurement is especially good for printing. For example, if you are making a magazine, you might need to limit the sheet size to the number of characters. In mono-width fonts (fixed width fonts) where all characters have the same width, 1ch is equal to one character. In such cases, ch may be especially useful. In proportional fonts (with variable width), any given character may be wider or narrower than the "0" character.
+Here is an example:
+
+p {
+  font-size: 5ch;
+}

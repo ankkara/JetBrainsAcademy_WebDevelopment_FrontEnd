@@ -1,0 +1,48 @@
+1) KEY FRAMES
+
+In CSS, animation is a smooth transition of an HTML element from one style to another. The animation consists of different frames that gradually replace each other. You can create key frames, that is, properties that should be applied to an element at a given time. The calculation of the intermediate values between such frames is performed by the browser.
+
+2) THE @THEYFRAMES RULE
+
+They determine what the animation looks like at each point of the timeline. Key frames are created using the @keyframes rule. The syntax of @keyframes looks like this:
+
+@keyframes animation name {
+ 0% {
+   /* CSS properties */
+ }
+ 100% {
+   /* CSS properties */
+ }
+}
+Each @keyframes consists of the following parts:
+
+Animation name: you can choose any name to describe your animation.
+Animation steps: each step can be represented in percentages. 0% represents the initial state of the animation, and a 100% represents its final state; you can create up to a 100 steps.
+CSS properties can be defined for each step of the timeline.
+
+Consider the following example of animation where the element changes its font size:
+
+@keyframes change-font-size {
+ 0% {
+   height: 10%;
+ }
+ 50% {
+   height: 30%;
+ }
+ 100% {
+   height: 10%;
+  }
+}
+
+3) APPLYING KEYFRAMES TO THE ELEMENT
+
+After declaring the @keyframes rule, we can apply it to our HTML elements. In order for the animation to start, we need to know two basic CSS properties:
+
+animation-name: the value of this property is the name of the animation as defined in @keyframes.
+animation-duration is responsible for the duration of the animation. The duration can be specified in seconds (for example, 2s) or milliseconds (200ms).
+Let's try to apply the previously created change-font-size animation to the <h1> element. It will look like this:
+
+h1 {
+  animation-name: change-font-size;
+  animation-duration: 3s;
+}

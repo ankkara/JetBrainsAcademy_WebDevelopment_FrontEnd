@@ -1,0 +1,17 @@
+.flag {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    box-shadow: -100px 0px #0055A4, 100px 0px #EF4135;
+
+    /* Only change code above this line*/
+}
+
+body {
+    background-color: #252546;
+}
+
+.main-container {
+    margin-left: 120px;
+    margin-top: 50px;
+}

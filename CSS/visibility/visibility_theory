@@ -1,0 +1,8 @@
+The visibility property is intended to hide or show the element without changing the markup of the HTML document. You can set it to the following values:
+
+visible is the default value, meaning that the element is displayed as visible.
+hidden makes the element invisible.
+collapse can hide rows and columns of a table, and the table will be reconstructed taking the missing elements into account. If you try to apply this value to something that is not a table element, the result will be the same as if you used hidden.
+inherit will allow you to inherit the value of the parent element.
+initial sets the property to its default value.
+unset is basically a combination of the initial and inherit values. The unset keyword sets the property value as inherit if the property is inherited from the parent element; otherwise, the value is set as initial.

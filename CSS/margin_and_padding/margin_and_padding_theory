@@ -1,0 +1,43 @@
+What are margin and padding
+Margin is a distance from one package to another. In others words, it's an interblock space.
+
+Padding refers to a shift from content to rim package.
+
+*we use margin for outside shifts and padding for inside shifts.
+
+1) PROPERTIES
+
+There are four properties for setting margins/padding for each side of the element: top, right, bottom, left. Definitions can be stated in any CSS unit (px, em, %).
+
+For example: padding-right: 5%
+
+Also, there is a contracted notation for margin and padding in CSS, so it's not necessary to set every side separately. It is possible to point to one, two, three or all four values at once.
+
+4 values: sides of an element in this order: top, right, bottom, left; that is, clockwise.
+padding: 2px 5px 10px 5px
+3 values: the order is top, then one property for both the right and the left side, and then the bottom.
+padding: 2px 5px 10px
+2 values: first, one property is assigned for top and bottom, then another is set for both right and left.
+padding: 2px 5px
+1 value means that a single property applies to every side.
+padding: 2px
+Note that if needed, you can also use negative values for margins: (margin-left: -5%).
+
+2) USAGE
+
+Use margin when:
+
+1. You need to center an element. If that element has a fixed width, it will be centered horizontally by margin: auto
+
+margin: auto will only work if the block width is set.
+2. It is necessary to make some content stand out by putting it separately without other elements touching it.
+
+Use padding when:
+
+1. You want to increase the size of the element. Padding will increase the size to accommodate the gap.
+
+2. You need the element to have a background in the produced gap.
+
+3. You need some space around the content (see point 2 in margin).
+
+Conclusion

@@ -1,0 +1,30 @@
+Here is what the syntax of this property generally looks like:
+
+box-element {
+    box-shadow: offset-x offset-y blur-radius spread-radius color;
+}
+Let's take it apart and look closely at each of these parameters. We will start with two mandatory parameters:
+
+offset-x sets the position of the shadow on the horizontal axis relative to the element. A positive value shifts the shadow to the right, while a negative value shifts it to the left.
+offset-y sets the position of the shadow on the vertical axis relative to the element. A positive value shifts the shadow downwards, while a negative value shifts it upwards.
+There are other parameters that are optional. Let's take a look at them:
+
+blur-radius gives the shadow a blurry effect. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values will not have any effect.
+spread-radius will make the shadow expand if its value is positive, or shrink if the value is negative. The default value is 0.
+color sets the color of the shadow. If no value is defined, it will be based upon the currentcolor. This parameter is also optional.
+If both parameters offset-x and offset-y are 0, the shadow is placed behind the element. If blur-radius or spread-radius are set, this will generate a blur effect on our element.
+
+This may seem really theoretical, so let's visualize this information using an example. Note: in this example, we also added a background-color to the element for better viewing; you do not need to worry about it right now.
+
+Take a look:
+
+<div id="box">I want a shadow</div>
+#box {
+    background-color: darkred;
+    box-shadow: 5px 5px lightseagreen;
+}
+
+#box {
+    background-color: darkred;
+    box-shadow: 5px 5px lightseagreen, -5px -5px black;
+}

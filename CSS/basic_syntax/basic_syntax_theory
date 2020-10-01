@@ -1,0 +1,26 @@
+Basic CSS syntax can be schematically described as follows:
+
+selector { property: value; }
+CSS syntax consists of two main parts: a selector and a declaration block that is put in curly brackets. Let's look at them more closely.
+
+1)Selector indicates which HTML elements the styles will be applied to. For example:
+
+  h1 { color: red; }
+
+*You can write multiple selectors separated by commas, and all styles specified in the declaration block will be applied to them. For example:
+
+  h1, p { color: red; }
+
+2)Declaration block contains one or more declarations separated by semicolons. Several declarations look like this:
+
+  div {
+    width: 500px;
+    height: 50px;
+    color: yellow;
+  }
+In this example, three styles are applied to <div> elements simultaneously: specify width equal to 500 pixels, change the height value to 50 pixels, and make the entire text yellow.
+
+*Property determines what exactly will be altered: background, text color, position on the page, or something else. The value of a property is a kind of refinement of what it will be changed to. Each property has its own individual set of permissible values. We will learn about the most common properties and their permissible values in the following topics. Take a look at another example:
+
+ span { font-size: 25px; }
+ In this case, font-size is a property applied to the elements and 25px is the value. As you probably guessed, here we change the font size to 25 pixels in <span> elements.

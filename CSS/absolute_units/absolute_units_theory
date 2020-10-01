@@ -1,0 +1,39 @@
+CSS works with a variety of units of measurement that can help you specify the size of elements. These units can be absolute and relative. Absolute units of measurement have a fixed size.
+
+1)PIXELS :
+To specify the size of elements on the web pages intended for viewing on device screens, pixels are used more often than any other absolute units.
+
+px defines the measurement in pixels.
+
+p {
+  height: 25px;
+}
+
+2)ABSOLUTE UNITS :
+Besides pixels, there are other absolute units of measurement. You have probably seen or used some of these units outside of CSS.
+
+cm defines the measurement in centimeters:
+
+p {
+  font-size: 10cm;
+}
+mm defines the measurement in millimeters (10mm = 1cm):
+
+p {
+  font-size: 100mm; /* or 10cm */
+}
+in defines the measurement in inches (1in = 2.54cm):
+
+p {
+  font-size: 4in; /* or 10.16cm */
+}
+pt defines the measurement in points (1pt = 1/72 of 1in).
+
+p {
+  font-size: 288pt; /* or 10.16cm */
+}
+pc defines the measurement in rations (1pc = 12pt).
+
+p {
+  font-size: 24pc; /* or 10.16cm */
+}

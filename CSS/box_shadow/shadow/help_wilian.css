@@ -1,0 +1,6 @@
+.first-element {
+    background-color: rgb(215, 224, 231);
+    width: 200px;
+    height: 100px;
+    box-shadow: -5px -5px blue
+}

@@ -1,0 +1,6 @@
+The syntax of CSS comments is quite simple:
+
+/* Any text */
+Any text placed between /* and */ will be considered a comment. The text of the comment can be placed either on one line or several.
+
+Let's look at specific examples of how and when comments are used.

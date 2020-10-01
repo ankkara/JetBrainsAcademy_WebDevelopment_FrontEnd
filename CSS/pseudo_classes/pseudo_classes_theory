@@ -1,0 +1,26 @@
+Any type of pseudo-class can be written with the following syntax:
+
+css-selector:pseudo-class {
+    property: value;
+}
+
+Pseudo-class :active is used when the user activates a page element. It allows the page to react when the element is activated. Activation is the time between the user pressing and releasing the mouse button. The link is considered active after it has been clicked on, for example:
+
+a:active {
+  color: blue;
+}
+Pseudo-class :focus is used when an element gets a focus. It usually happens to the input element of the form when one clicks on the form:
+
+input:focus {
+  color: grey;
+}
+Pseudo-class :hover is attached to the selector if you want some HTML page element to react when the mouse pointer is hovering over it:
+
+a:hover {
+  color: red;
+}
+Another frequently used pseudo-class is :visited. We use it to mark links that have already been visited by the user:
+
+a:visited {
+  color: purple;
+}

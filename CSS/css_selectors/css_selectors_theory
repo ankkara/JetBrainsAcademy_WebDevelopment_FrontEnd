@@ -1,0 +1,25 @@
+1) CSS element Selectors are the most elementary and easy-to-use selectors. Their essence is the following: as a selector you use the name of the HTML element to which you want to apply the style.
+
+At the same time, if there are several elements in the layout of your web page indicated by this tag, then styles will be applied to all of them. Let's see what it looks like on an example:
+
+p {
+  color: brown;
+}
+
+This CSS code tells you that text in all paragraphs will be brown-colored. We apply it to an HTML document that contains the following lines:
+
+<p>The color of the text of this paragraph will become the color of brown.</p>
+<p>And this.</p>
+<p>And this too.</p>
+
+2)CSS id Selector is used if you need to work with a specific element when there are many similar elements. It takes its name from the value of the id attribute of the HTML tag you need. A symbol # is placed in front of it so that the browser understands that this is an id selector.
+
+3) CSS class Selector is useful when you need to give a lot of different elements the same look. The name of the selector is taken from the value of the class attribute of the desired HTML tag. A dot . is placed in front of it so that the browser understands that this is a class selector.
+
+Let's consider an example: say we want to apply the same background color (blue) to several different elements.
+
+CSS code:
+
+.blue {
+  background-color: blue;
+}

@@ -1,0 +1,45 @@
+Google makes it easy to connect any style of letters and characters from Google Fonts collection. All you need to do to start using this feature is specify a few settings, then copy a special link to the font and add it to your web document.
+
+Let's take a closer look at each step of connecting a font from Google.
+
+Font selection
+First, select the font you're interested in. If you want to find a font based on some specific parameters, the page has filters to search for fonts by name, thickness, alphabet and much more.
+
+After finding that special font you enjoy, click the plus icon next to the desired font style
+
+2)Once you have selected a font, click the icon at the top right of the screen to view the selected font families. The menu should pop up as soon as you press it.
+
+3)To embed the selected fonts into a web page, copy the code that comes up and paste it into your <head> HTML document:
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Google Fonts</title>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap"
+            rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <p>Your best day of your life is today.</p>
+    </body>
+  </html>
+  The <link> tag defines the relationship between the document and an external document. In this example, we copied the <link> tag from the site to an external font file.
+
+4) Now, to change the font of the text in the items, type a CSS style with a line of code from the subtitle "Specify in CSS". It will look like this:
+
+   p {
+     font-family: 'Raleway', sans-serif;
+   }
+
+5)Adding a font to a CSS file
+  As mentioned earlier, Google Fonts lets you embed the font directly into the CSS file. CSS code is generated in the "@import" tab. This code is usually added to the very beginning of the file. Connecting and using the same font will look like this:
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+  p {
+    font-family: 'Raleway', sans-serif;
+  }
+  @import allows you to import the contents of a CSS file into the current style sheet.
+
+  Google Fonts is free and easy to use, and it automatically generates the necessary code, so all we need to do is copy it.

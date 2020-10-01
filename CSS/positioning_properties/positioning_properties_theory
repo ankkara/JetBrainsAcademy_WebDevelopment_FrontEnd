@@ -1,0 +1,41 @@
+The properties discussed in the next section will not work unless the position property is specified for the required elements. The default value of this property is static.
+
+1) TOP
+The top property determines how far an item should be moved from the top. It can take both positive and negative values in any unit of measurement, as well as a percentage (the same applies to other properties in the topic).
+
+Consider the syntax:
+
+div {
+  position: relative;
+  top: 10px;
+}
+
+2) BOTTOM
+The bottom property indicates the distance by which the lower edge of the element is shifted upwards.
+
+Look at a simple example:
+
+p {
+  position: relative;
+  bottom: 5px;
+}
+
+3) LEFT
+The left property indicates the distance by which the left edge moves to the right. Positive values move the element inside the block where it is located, while negative values move the element outside the block.
+
+Here is an example:
+
+div {
+  position: relative;
+  left: -25px;
+}
+
+4) RIGHT
+The right property indicates the distance by which the right edge moves to the left.
+
+For example:
+
+div {
+  position: relative;
+  right: -2%;
+}

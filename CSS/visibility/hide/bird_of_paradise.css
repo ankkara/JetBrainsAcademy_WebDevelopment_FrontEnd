@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background: #00bbbb;
+}
+
+img {
+    height: 300px;
+    visibility: hidden;
+}
+
+p {
+    display: none;
+}

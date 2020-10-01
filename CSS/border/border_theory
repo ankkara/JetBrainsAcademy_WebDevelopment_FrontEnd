@@ -1,0 +1,49 @@
+CSS provides several properties that allow you to define style, width and color of the element border.
+
+1) BORDER STYLE : Let's start with the property that allows you to display the borders of elements and set their style: border-style
+
+Now look at the syntactic features of this property:
+
+h1 {
+  border-style: double;
+}
+
+2) BORDER COLOR : The border-color property sets the color of the border. If it is not specified, the border color will be the text color of the element.
+
+Here is an example of how to use this property:
+
+p {
+   border-style: solid; /* it sets a border */
+   border-color: brown; /* it sets the color of the border */
+}
+
+3) BORDER WIDTH : The border width is defined with the border-width property and any length unit in CSS, for example, pixels:
+
+h4 {
+    border-style: dotted; /* it sets a border */
+    border-width: 4px;    /* it sets the width of the border */
+}
+
+4) BORDER PROPERTY : To set the style for the border, it is not necessary to use all three of the above properties in turn. It’s enough to know about the general universal property of border, with which you can write style much faster and save space in your CSS file. To do this, write down the values for all three properties in any order:
+
+p {
+  border: 2px solid gray;
+}
+
+5) BORDER FOR ONE SIDE OF THE ELEMENT : It is also possible to set a boundary for one side of the element.
+
+There are border-top, border-right, border-bottom, border-left properties for setting the border on the top, right, bottom and left sides of the element respectively. Look at how you can make an interesting border-bottom at the bottom:
+
+<p>In<span>troduction to C<span>SS</p>
+span {
+      border-bottom: 2px solid green;
+}
+
+The same beautiful design will be created by combining these properties. For example:
+
+<p>News</p>
+p {
+    border-bottom: 2px solid brown;
+    border-left: 2px solid brown;
+}
+

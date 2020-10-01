@@ -1,0 +1,18 @@
+The text-shadow syntax in general looks like this:
+
+text-element {
+   text-shadow: x-shadow y-shadow radius color;
+}
+The text-shadow property can accept the following parameters as values:
+
+x-shadow is a mandatory parameter. It is responsible for the horizontal shift of the shadow relative to the text. A positive value of this parameter sets the shadow shift to the right, a negative value sets the shadow shift to the left;
+y-shadow is also a mandatory parameter. It is responsible for the vertical shift of the shadow in relation to the text. If you use a negative value, the shadow will shift upwards.
+radius sets the shadow blur radius. The larger this value, the more the shadow is smoother, wider and brighter. This parameter is considered optional. If this parameter is not set, it is set to 0 by default;
+color sets the color of the shadow. By default, the shadow color is the same as the text color. This parameter is considered optional;
+Instead of the parameters listed above, you can set none. This parameter is used to cancel the addition of shadows.
+To better understand how it works, take a look at the following code:
+
+<h1>Text-shadow</h1>
+h1 {
+    text-shadow: 2px 0px 2px green;
+}
